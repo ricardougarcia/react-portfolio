@@ -1,19 +1,19 @@
 import React from "react";
 import dashboard from "../../assets/images/dashboard.png";
 import mockup from "../../assets/images/Mockup.png";
-// import rico from "../../assets/images/Photo-of-Ricardo.jpg";
 import placeholder from "../../assets/images/placeholder-img.jpeg";
-// import "../styles/Home.css";
+import contextify from "../../assets/images/contextify.png";
+import "../styles/Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   return (
-    <div id="projects">
+    <div id="projects" class="container">
       <section class="card-img-top">
-        <h3>Project 1: GreenTrip Planner</h3>
+        <h3>GreenTrip Planner</h3>
         <a href="https://jimbo8702.github.io/Project-One/">
           <img
-            class="img-responsive img-rounded"
+            class="thumbnail"
             src={mockup}
             alt="Project 1: GreenTrip Planner"
           />
@@ -27,10 +27,14 @@ export default function Home() {
         </p>
       </section>
 
-      <section class="card">
-        <h3>Project 2: My Interactions</h3>
+      <section class="card-img-top">
+        <h3>My Interactions</h3>
         <a href="https://my-interactions.herokuapp.com">
-          <img src={dashboard} alt="project 2: My Interactions" />
+          <img
+            src={dashboard}
+            class="thumbnail"
+            alt="project 2: My Interactions"
+          />
         </a>
         <p>
           This application allows users to create profiles to research and store
@@ -38,10 +42,16 @@ export default function Home() {
         </p>
       </section>
 
-      <section class="card">
+      <section class="card-img-top">
         <h3>Contextify</h3>
-        <img src={placeholder} alt="project 3" />
-        <p>Brief description</p>
+        <img src={contextify} class="thumbnail" alt="project 3" />
+        <p>
+          Contextify is a full stack MERN application that that offers visual
+          representation of data. Contextify can handle general weight,
+          distance, and time conversions as well as abstract conversions. This
+          application is to help users quantify their metrics in a more
+          digestible context, like say...bananas!
+        </p>
       </section>
 
       {/* <section class="card">

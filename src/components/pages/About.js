@@ -4,9 +4,9 @@ import "../styles/About.css";
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <img src={rico} class="img-responsive" alt="Responsive image" />
+    <div class="ice-cold-cool-gradient">
+      <h1>About Me</h1>
+      <img src={rico} class="thumbnail" alt="Responsive image" />
       <p>
         Welcome to my portfolio page! My name is Ricardo Garcia, and I am
         excited to showcase a few of my projects and give insights to my
