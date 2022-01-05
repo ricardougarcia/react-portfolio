@@ -6,7 +6,7 @@ A portfolio of work can showcase your skills and talents to employers looking to
 
 ## Installation
 
-Github repository: https://github.com/ricardougarcia/html-portfolio.git
+Github repository: https://github.com/ricardougarcia/react-portfolio
 The current site is public and can be found on https://cryptic-savannah-98597.herokuapp.com/
 
 ## Usage
