@@ -1,10 +1,15 @@
 import React from "react";
 
+const styles = {
+  navbarStyle: {
+    justifyContent: "flex-end",
+  },
+};
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" style={styles.navbarStyle}>
       <li className="nav-item">
         <a
           href="#home"
@@ -13,7 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          Home
+          Projects
         </a>
       </li>
       <li className="nav-item">

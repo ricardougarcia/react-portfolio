@@ -2,3 +2,34 @@
   background: #f9b713;
   width: 50%;
 }
+.repeating-before {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contactH1 {
+  font-family: "Karla", sans-serif;
+}
+.repeating-before li {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  text-indent: -0.5rem;
+}
+li {
+  padding-left: 10px;
+}
+.repeating-before li:nth-child(4n + 1)::before {
+  content: "📥  ";
+}
+
+.repeating-before li:nth-child(4n + 2)::before {
+  content: "📱  ";
+}
+
+.repeating-before li:nth-child(4n + 3)::before {
+  content: "👔  ";
+}
+
+.repeating-before li:nth-child(4n)::before {
+  content: "🚧  ";
+}

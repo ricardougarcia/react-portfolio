@@ -1,13 +1,15 @@
 import React from "react";
 import rico from "../../assets/images/Photo-of-Ricardo.jpg";
 import "../styles/About.css";
+import GoogleDocsViewer from "react-google-docs-viewer";
 
 export default function About() {
   return (
-    <div class="ice-cold-cool-gradient">
-      <h1>About Me</h1>
-      <img src={rico} class="thumbnail" alt="Responsive image" />
-      <p>
+    <div className="aboutContainer">
+      <h1 className="aboutH1">About Me</h1>
+      <img src={rico} className="thumbnail" alt="Responsive image" />
+
+      <p className="aboutP">
         Welcome to my portfolio page! My name is Ricardo Garcia, and I am
         excited to showcase a few of my projects and give insights to my
         colorful work experience. Just a quick glance at my work history will
@@ -22,6 +24,13 @@ export default function About() {
         impact in the communities that I serve. Thanks for browsing around and
         feel free to ask for more!
       </p>
+      <div id="resumePreview">
+        <GoogleDocsViewer
+          width="600px"
+          height="780px"
+          fileUrl="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing"
+        />
+      </div>
     </div>
   );
 }
