@@ -1,7 +1,8 @@
 import React from "react";
 import rico from "../../assets/images/Photo-of-Ricardo.jpg";
 import "../styles/About.css";
-import GoogleDocsViewer from "react-google-docs-viewer";
+// import GoogleDocsViewer from "react-google-docs-viewer";
+import DocViewer from "../Doc.js";
 
 export default function About() {
   return (
@@ -24,12 +25,9 @@ export default function About() {
         impact in the communities that I serve. Thanks for browsing around and
         feel free to ask for more!
       </p>
-      <div id="resumePreview">
-        <GoogleDocsViewer
-          width="600px"
-          height="780px"
-          fileUrl="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing"
-        />
+      <div className="resume">
+        <h2>Resume:</h2>
+        <DocViewer source="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing" />
       </div>
     </div>
   );
