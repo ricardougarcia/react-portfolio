@@ -1,8 +1,6 @@
 import React from "react";
 import rico from "../../assets/images/Photo-of-Ricardo.jpg";
 import "../styles/About.css";
-// import GoogleDocsViewer from "react-google-docs-viewer";
-import DocViewer from "../Doc.js";
 
 export default function About() {
   return (
@@ -26,8 +24,15 @@ export default function About() {
         feel free to ask for more!
       </p>
       <div className="resume">
-        <h2>Resume:</h2>
-        <DocViewer source="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing" />
+        <h2>
+          {" "}
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing"
+          >
+            Resume
+          </a>
+        </h2>
       </div>
     </div>
   );
