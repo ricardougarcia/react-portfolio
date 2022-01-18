@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div>
       <div id="contactme">
-        <h1 className="contactH2">Contact Me</h1>
+        <h1 className="contactH1">Contact Me</h1>
         <ul className="repeating-before">
           <li>
             <a href="mailto:ricardougarcia@gmail.com"> Email</a>

@@ -2,7 +2,8 @@
   background: #f9b713;
   width: 50%;
   border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 0.2),
+    0 6px 20px 0 rgba(252, 251, 251, 0.19);
 }
 
 .aboutContainer {
@@ -13,9 +14,12 @@
 
 .aboutH1 {
   font-family: "Karla", sans-serif;
+  color: white;
   /* font-family: 'Raleway', sans-serif; */
 }
 
-.aboutp {
+.aboutP {
   font-family: "Karla", sans-serif;
+  color: white;
+  margin-top: 20px;
 }

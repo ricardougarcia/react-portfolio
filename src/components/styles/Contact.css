@@ -9,15 +9,18 @@
 }
 .contactH1 {
   font-family: "Karla", sans-serif;
+  color: white;
+  padding-left: 10px;
 }
 .repeating-before li {
-  padding-left: 1rem;
+  padding-left: 2rem;
   padding-bottom: 1rem;
   text-indent: -0.5rem;
 }
 li {
-  padding-left: 10px;
+  padding-left: 20px;
 }
+
 .repeating-before li:nth-child(4n + 1)::before {
   content: "📥  ";
 }

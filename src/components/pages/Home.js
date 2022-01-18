@@ -13,36 +13,36 @@ export default function Home() {
         <Carousel.Item interval={4000}>
           <img
             className="d-block w-100"
-            src={mockup}
-            // src="holder.js/800x400?text=First slide&bg=373940"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3 className="captionH3">Green Trip Planner</h3>
-            <p className="captionP">
-              {" "}
-              If individuals are able to quantify the time vs. money vs. CO2
-              relationship of different methods of transit, then individuals
-              will be able to make better informed decisions about what to
-              prioritize for different trips. This application is the first step
-              in accomplishing that initiave.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={4000}>
-          <img
-            className="d-block w-100"
             src={dashboard}
             // src="holder.js/800x400?text=Second slide&bg=282c34"
             alt="Second slide"
           />
 
           <Carousel.Caption>
-            <h3 className="captionH3">My Interactions</h3>
+            {/* <h3 className="captionH3">My Interactions</h3>
             <p className="captionP">
               This application allows users to create profiles to research and
               store drug interactions behind a secure and personal login.
-            </p>
+            </p> */}
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <img
+            className="d-block w-100"
+            src={mockup}
+            // src="holder.js/800x400?text=First slide&bg=373940"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            {/* <h3 className="captionH3">Green Trip Planner</h3> */}
+            {/* <p className="captionP">
+              {" "}
+              If individuals are able to quantify the time vs. money vs. CO2
+              relationship of different methods of transit, then individuals
+              will be able to make better informed decisions about what to
+              prioritize for different trips. This application is the first step
+              in accomplishing that initiave.
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
@@ -54,14 +54,14 @@ export default function Home() {
           />
 
           <Carousel.Caption>
-            <h3 className="captionH3">Contextify</h3>
+            {/* <h3 className="captionH3">Contextify</h3>
             <p className="captionP">
               Contextify is a full stack MERN application that that offers
               visual representation of data. Contextify can handle general
               weight, distance, and time conversions as well as abstract
               conversions. This application is to help users quantify their
               metrics in a more digestible context, like say...bananas!
-            </p>
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

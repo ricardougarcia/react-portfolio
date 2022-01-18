@@ -3,6 +3,7 @@ import React from "react";
 const styles = {
   navbarStyle: {
     justifyContent: "flex-end",
+    // color: "white",
   },
 };
 // Here we are using object destructuring assignment to pluck off our variables from the props object
@@ -31,16 +32,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      {/* <li className="nav-item">
+      <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange("Blog")}
+          target="_blank"
+          href="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing"
+          // onClick={() => handlePageChange("Resume")}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Resume
         </a>
-      </li> */}
+      </li>
       <li className="nav-item">
         <a
           href="#contact"

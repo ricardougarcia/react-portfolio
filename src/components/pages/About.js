@@ -7,7 +7,6 @@ export default function About() {
     <div className="aboutContainer">
       <h1 className="aboutH1">About Me</h1>
       <img src={rico} className="thumbnail" alt="Responsive image" />
-
       <p className="aboutP">
         Welcome to my portfolio page! My name is Ricardo Garcia, and I am
         excited to showcase a few of my projects and give insights to my
@@ -23,17 +22,6 @@ export default function About() {
         impact in the communities that I serve. Thanks for browsing around and
         feel free to ask for more!
       </p>
-      <div className="resume">
-        <h2>
-          {" "}
-          <a
-            target="_blank"
-            href="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing"
-          >
-            Resume
-          </a>
-        </h2>
-      </div>
     </div>
   );
 }
