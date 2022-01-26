@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Carousel fade>
         {/* <Link href="https://jimbo8702.github.io/Project-One/"> */}
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={7000}>
           <a href="https://my-interactions.herokuapp.com">
             <img
               className="d-block w-100"
@@ -30,7 +30,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         {/* </Link> */}
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={7000}>
           <a href="https://jimbo8702.github.io/Project-One/">
             <img
               className="d-block w-100"
@@ -51,7 +51,7 @@ export default function Home() {
             </p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={7000}>
           <a href="https://protected-tundra-53056.herokuapp.com/">
             <img
               className="d-block w-100"
