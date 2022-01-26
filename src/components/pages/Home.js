@@ -10,22 +10,24 @@ export default function Home() {
   return (
     <div>
       <Carousel fade>
-        <Carousel.Item interval={4000}>
-          <img
-            className="d-block w-100"
-            src={dashboard}
-            // src="holder.js/800x400?text=Second slide&bg=282c34"
-            alt="Second slide"
-          />
+        <Link to="https://jimbo8702.github.io/Project-One/">
+          <Carousel.Item interval={4000}>
+            <img
+              className="d-block w-100"
+              src={dashboard}
+              // src="holder.js/800x400?text=Second slide&bg=282c34"
+              alt="Second slide"
+            />
 
-          <Carousel.Caption>
-            {/* <h3 className="captionH3">My Interactions</h3>
+            <Carousel.Caption>
+              {/* <h3 className="captionH3">My Interactions</h3>
             <p className="captionP">
               This application allows users to create profiles to research and
               store drug interactions behind a secure and personal login.
             </p> */}
-          </Carousel.Caption>
-        </Carousel.Item>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Link>
         <Carousel.Item interval={4000}>
           <img
             className="d-block w-100"
