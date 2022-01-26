@@ -10,31 +10,35 @@ export default function Home() {
   return (
     <div>
       <Carousel fade>
-        <Link to="https://jimbo8702.github.io/Project-One/">
-          <Carousel.Item interval={4000}>
+        {/* <Link href="https://jimbo8702.github.io/Project-One/"> */}
+        <Carousel.Item interval={4000}>
+          <a href="https://my-interactions.herokuapp.com">
             <img
               className="d-block w-100"
               src={dashboard}
               // src="holder.js/800x400?text=Second slide&bg=282c34"
               alt="Second slide"
             />
+          </a>
 
-            <Carousel.Caption>
-              {/* <h3 className="captionH3">My Interactions</h3>
+          <Carousel.Caption>
+            {/* <h3 className="captionH3">My Interactions</h3>
             <p className="captionP">
               This application allows users to create profiles to research and
               store drug interactions behind a secure and personal login.
             </p> */}
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Link>
+          </Carousel.Caption>
+        </Carousel.Item>
+        {/* </Link> */}
         <Carousel.Item interval={4000}>
-          <img
-            className="d-block w-100"
-            src={mockup}
-            // src="holder.js/800x400?text=First slide&bg=373940"
-            alt="First slide"
-          />
+          <a href="https://jimbo8702.github.io/Project-One/">
+            <img
+              className="d-block w-100"
+              src={mockup}
+              // src="holder.js/800x400?text=First slide&bg=373940"
+              alt="First slide"
+            />
+          </a>
           <Carousel.Caption>
             {/* <h3 className="captionH3">Green Trip Planner</h3> */}
             {/* <p className="captionP">
@@ -48,12 +52,14 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
-          <img
-            className="d-block w-100"
-            src={contextify}
-            // src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
+          <a href="https://protected-tundra-53056.herokuapp.com/">
+            <img
+              className="d-block w-100"
+              src={contextify}
+              // src="holder.js/800x400?text=Third slide&bg=20232a"
+              alt="Third slide"
+            />
+          </a>
 
           <Carousel.Caption>
             {/* <h3 className="captionH3">Contextify</h3>
