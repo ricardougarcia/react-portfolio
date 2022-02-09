@@ -18,3 +18,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
+.card-display {
+  display: inline-flex;
+  padding-top: 10px;
+}
