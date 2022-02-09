@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           target="_blank"
-          href="https://docs.google.com/document/d/1mjYCAXpFPIY1qFQ2Jg3OimAzDupuF-n_SU3nRfldiS0/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1mhXnuVMW6pX0jfpyu8YI6C7ji3uq63pCJbB78wk6hr0/edit?usp=sharing"
           // onClick={() => handlePageChange("Resume")}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
