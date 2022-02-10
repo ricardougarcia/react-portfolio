@@ -2,6 +2,9 @@
   background: #f9b713;
   width: 50%;
 }
+#container {
+  flex-wrap: wrap;
+}
 
 .captionH3 {
   color: rgb(255, 255, 255);
@@ -19,6 +22,42 @@
   font-weight: 500;
 }
 .card-display {
-  display: inline-flex;
-  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  border-radius: 25%;
+  /* align-content: space-around; */
+}
+/* #card1 {
+  margin: 10px;
+}
+#card2 {
+  margin: 10px;
+}
+#card3 {
+  margin: 10px;
+} */
+.cards {
+  margin: 10px;
+  border-radius: 25%;
+}
+/* .cardImg {
+
+} */
+/* .cardBody {
+  background: rgb(146, 219, 253);
+} */
+#cardBody1 {
+  background: rgb(243, 243, 243);
+  /* border: 3px solid green;
+  border-radius: 10%; */
+}
+#cardBody2 {
+  background: rgb(243, 243, 243);
+}
+#cardBody3 {
+  background: rgb(243, 243, 243);
+}
+.cardText {
+  background: rgba(255, 255, 255, 0);
 }
